@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BillingRemotingServer", "BillingRemotingServer.vbproj", "{B696CE31-E697-40BA-A660-5C99A433AFD1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Billing", "..\BillingComponent\Billing.vbproj", "{FEF883E1-6547-43C2-907C-7CE321E059AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B696CE31-E697-40BA-A660-5C99A433AFD1}.Debug.ActiveCfg = Debug|.NET
+		{B696CE31-E697-40BA-A660-5C99A433AFD1}.Debug.Build.0 = Debug|.NET
+		{B696CE31-E697-40BA-A660-5C99A433AFD1}.Release.ActiveCfg = Release|.NET
+		{B696CE31-E697-40BA-A660-5C99A433AFD1}.Release.Build.0 = Release|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Debug.ActiveCfg = Debug|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Debug.Build.0 = Debug|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Release.ActiveCfg = Release|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "VB6Tests.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "0"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "VB6Tests"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "VB6Tests.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "D:\MovingToVBNet\Source\CH8\VB6Tests\VB6Tests.NET"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "D:\MovingToVBNet\Source\CH8\VB6Tests\VB6Tests.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "WinExe"
+        />
+    </Settings>
+    <File
+        OldPath = "D:\MovingToVBNet\Source\CH8\VB6Tests\Module1.bas"
+        NewPath = "D:\MovingToVBNet\Source\CH8\VB6Tests\VB6Tests.NET\Module1.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    >
+        <Section Name = "Main" >
+            <Issue
+                Type = "Runtime"
+                Number = "1033"
+            >Lower bound of array A was changed from 2 to 0.</Issue>
+        </Section>
+        <Section Name = "(Declarations)" >
+            <Issue
+                Type = "Runtime"
+                Number = "1047"
+            >Application will terminate when Sub Main() finishes.</Issue>
+        </Section>
+    </File>
+</UpgradeLog>
+

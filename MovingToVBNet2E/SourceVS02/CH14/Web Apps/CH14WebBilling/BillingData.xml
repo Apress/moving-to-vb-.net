@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="yes"?>
+<BillingSet xmlns="http://tempuri.org/BillingSet.xsd">
+  <BillingTable>
+    <Name>Dan</Name>
+    <Hours>5</Hours>
+    <Description>Finish chapter 14</Description>
+  </BillingTable>
+  <BillingTable>
+    <Name>Janet</Name>
+    <Hours>6</Hours>
+    <Description>Proof reading</Description>
+  </BillingTable>
+  <BillingTable>
+    <Name>GWB</Name>
+    <Hours>600</Hours>
+    <Description>Running the country</Description>
+  </BillingTable>
+</BillingSet>

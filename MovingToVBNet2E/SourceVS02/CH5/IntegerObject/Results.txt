@@ -1,0 +1,9 @@
+This is a test
+15
+Hash is: 15
+Type is: System.Int32
+Type full name is: System.Int32
+Type assembly qualified name is: System.Int32, mscorlib, Version=1.0.2411.0, 
+Culture=neutral, PublicKeyToken=b77a5c561934e089
+Type assembly qualified name is: System
+Press Enter to continue

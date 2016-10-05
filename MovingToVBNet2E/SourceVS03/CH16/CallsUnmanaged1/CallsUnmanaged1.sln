@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnmanagedClass", "..\UnmanagedClass\UnmanagedClass.vbproj", "{5ECAC4E8-B545-480E-AC83-C5AABF4856AF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CallsUnmanaged1", "CallsUnmanaged1.vbproj", "{375CADA2-5A79-4726-96A1-F7FB0257B388}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5ECAC4E8-B545-480E-AC83-C5AABF4856AF}.Debug.ActiveCfg = Debug|.NET
+		{5ECAC4E8-B545-480E-AC83-C5AABF4856AF}.Debug.Build.0 = Debug|.NET
+		{5ECAC4E8-B545-480E-AC83-C5AABF4856AF}.Release.ActiveCfg = Release|.NET
+		{5ECAC4E8-B545-480E-AC83-C5AABF4856AF}.Release.Build.0 = Release|.NET
+		{375CADA2-5A79-4726-96A1-F7FB0257B388}.Debug.ActiveCfg = Debug|.NET
+		{375CADA2-5A79-4726-96A1-F7FB0257B388}.Debug.Build.0 = Debug|.NET
+		{375CADA2-5A79-4726-96A1-F7FB0257B388}.Release.ActiveCfg = Release|.NET
+		{375CADA2-5A79-4726-96A1-F7FB0257B388}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

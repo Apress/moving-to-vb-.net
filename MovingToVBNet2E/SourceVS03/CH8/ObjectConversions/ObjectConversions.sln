@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ObjectConversions", "ObjectConversions.vbproj", "{AD4B932C-95E4-4A28-938A-D5B8977FFEB2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{AD4B932C-95E4-4A28-938A-D5B8977FFEB2}.Debug.ActiveCfg = Debug|.NET
+		{AD4B932C-95E4-4A28-938A-D5B8977FFEB2}.Debug.Build.0 = Debug|.NET
+		{AD4B932C-95E4-4A28-938A-D5B8977FFEB2}.Release.ActiveCfg = Release|.NET
+		{AD4B932C-95E4-4A28-938A-D5B8977FFEB2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

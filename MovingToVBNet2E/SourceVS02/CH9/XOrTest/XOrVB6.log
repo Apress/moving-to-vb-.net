@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "XOrVB6.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "XOrVB6"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "XOrVB6.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "E:\MovingToVBNet\Source\CH9\XOrTest"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "E:\MovingToVBNet\Source\CH9\XOrVB6\XOrVB6.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "E:\MovingToVBNet\Source\CH9\XOrVB6\XOrMod.bas"
+        NewPath = "E:\MovingToVBNet\Source\CH9\XOrTest\XOrMod.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+</UpgradeLog>
+

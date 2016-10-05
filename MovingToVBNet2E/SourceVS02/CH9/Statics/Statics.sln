@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StaticsTest", "StaticsTest.vbproj", "{06377CFC-D8C6-47A9-8064-8F03CBB78B39}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{06377CFC-D8C6-47A9-8064-8F03CBB78B39}.Debug.ActiveCfg = Debug|.NET
+		{06377CFC-D8C6-47A9-8064-8F03CBB78B39}.Debug.Build.0 = Debug|.NET
+		{06377CFC-D8C6-47A9-8064-8F03CBB78B39}.Release.ActiveCfg = Release|.NET
+		{06377CFC-D8C6-47A9-8064-8F03CBB78B39}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

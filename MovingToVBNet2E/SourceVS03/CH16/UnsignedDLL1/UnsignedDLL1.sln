@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnsignedDLL1", "UnsignedDLL1.vbproj", "{B1291830-A49C-4908-93D5-83C06CF819E4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B1291830-A49C-4908-93D5-83C06CF819E4}.Debug.ActiveCfg = Debug|.NET
+		{B1291830-A49C-4908-93D5-83C06CF819E4}.Debug.Build.0 = Debug|.NET
+		{B1291830-A49C-4908-93D5-83C06CF819E4}.Release.ActiveCfg = Release|.NET
+		{B1291830-A49C-4908-93D5-83C06CF819E4}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

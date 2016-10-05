@@ -1,0 +1,4 @@
+frmAccounts = 110, 110, 635, 578, , 88, 88, 613, 556, C
+CheckingAccount = 65, 113, 590, 581, 
+SavingsAccount = 245, 23, 770, 491, 
+Account = 22, 22, 547, 490, 

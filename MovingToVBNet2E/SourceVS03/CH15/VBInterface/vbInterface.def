@@ -1,0 +1,35 @@
+LIBRARY	VBInterface
+
+
+EXPORTS
+	ReceivesShort		@100
+	ReceivesLong		@101
+	ReceivesInteger	    @102
+	ReceivesSingle		@103
+	ReceivesDouble		@104
+	Add5ToShort			@105
+	Add5ToLong			@106
+	Add5ToSingle		@107
+	Add5ToDouble		@108
+
+	ReceivesANSIString		@109
+	ReceivesUnicodeString	@110
+	ReceivesAutoString		@111
+	ChangesStringA			@112
+	ChangesStringW			@113
+	ChangesByRefStringW		@114
+	ChangesByRefStringA		@115
+	ChangesBSTRString		@117
+    ReturnsVBString			@118
+
+	ReceivesShortArray		@119
+	ReceivesShortRefArray	@120
+	ReturnsSafeArray		@121
+
+	ReceivesUserType		@122
+
+	ReceivesBytes		@123
+
+	ShowAddress			@150
+	DumpValues			@151
+	

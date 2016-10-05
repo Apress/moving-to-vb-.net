@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?> <?xml-stylesheet type="text/xsl" href="BillingExample.xslt"?>
+<BillingTable>
+	<Heading>Billing records</Heading>
+	<data>
+		<record>
+			<name>Dan</name>
+			<hours>5</hours>
+			<description>First job</description>
+		</record>
+		<record>
+			<name>Jill</name>
+			<hours>3.2</hours>
+			<description>Second job</description>
+		</record>
+	</data>
+</BillingTable>

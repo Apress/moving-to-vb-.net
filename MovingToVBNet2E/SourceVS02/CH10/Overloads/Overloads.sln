@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassExamples", "ClassExamples\ClassExamples.vbproj", "{524DA604-E1AD-4A51-B478-348058A06D03}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "OverloadsTest", "OverloadsTest\OverloadsTest.vbproj", "{F0B99F14-C196-4C66-95D0-405C4BD019F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{524DA604-E1AD-4A51-B478-348058A06D03}.Debug.ActiveCfg = Debug|.NET
+		{524DA604-E1AD-4A51-B478-348058A06D03}.Debug.Build.0 = Debug|.NET
+		{524DA604-E1AD-4A51-B478-348058A06D03}.Release.ActiveCfg = Release|.NET
+		{524DA604-E1AD-4A51-B478-348058A06D03}.Release.Build.0 = Release|.NET
+		{F0B99F14-C196-4C66-95D0-405C4BD019F5}.Debug.ActiveCfg = Debug|.NET
+		{F0B99F14-C196-4C66-95D0-405C4BD019F5}.Debug.Build.0 = Debug|.NET
+		{F0B99F14-C196-4C66-95D0-405C4BD019F5}.Release.ActiveCfg = Release|.NET
+		{F0B99F14-C196-4C66-95D0-405C4BD019F5}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

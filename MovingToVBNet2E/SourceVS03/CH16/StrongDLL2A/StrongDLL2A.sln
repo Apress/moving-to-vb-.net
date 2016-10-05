@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "StrongDLL2A", "StrongDLL2A.vbproj", "{E6E1842A-E70B-4457-9D26-7B02EDC76B19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E6E1842A-E70B-4457-9D26-7B02EDC76B19}.Debug.ActiveCfg = Debug|.NET
+		{E6E1842A-E70B-4457-9D26-7B02EDC76B19}.Debug.Build.0 = Debug|.NET
+		{E6E1842A-E70B-4457-9D26-7B02EDC76B19}.Release.ActiveCfg = Release|.NET
+		{E6E1842A-E70B-4457-9D26-7B02EDC76B19}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

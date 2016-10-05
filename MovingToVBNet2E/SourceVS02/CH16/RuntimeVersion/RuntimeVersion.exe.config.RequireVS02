@@ -1,0 +1,5 @@
+<configuration>
+   <startup>
+      <requiredRuntime version="v1.0.3705" safemode="true"/>
+   </startup>
+</configuration>

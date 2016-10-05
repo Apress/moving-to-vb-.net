@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+    <Settings>
+        <Setting
+            Name = "LogFile"
+            Value = "MathVB6.log"
+        />
+        <Setting
+            Name = "GenerateInterfacesForClasses"
+            Value = "FALSE"
+        />
+        <Setting
+            Name = "ProjectName"
+            Value = "MathVB6"
+        />
+        <Setting
+            Name = "OutputName"
+            Value = "MathVB6.vbproj"
+        />
+        <Setting
+            Name = "OutputDir"
+            Value = "E:\MovingToVBNet\Source\CH9\Math"
+        />
+        <Setting
+            Name = "ProjectPath"
+            Value = "E:\MovingToVBNet\Source\CH9\MathVB6\MathVB6.vbp"
+        />
+        <Setting
+            Name = "MigrateProjectTo"
+            Value = "0"
+        />
+    </Settings>
+    <File
+        OldPath = "E:\MovingToVBNet\Source\CH9\MathVB6\modMath.bas"
+        NewPath = "E:\MovingToVBNet\Source\CH9\Math\modMath.vb"
+        FileType = "Module"
+        Upgraded = "True"
+    />
+</UpgradeLog>
+

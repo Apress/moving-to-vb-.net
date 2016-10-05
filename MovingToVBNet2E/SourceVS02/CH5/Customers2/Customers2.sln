@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Customers2", "Customers2.vbproj", "{734B819D-73B8-4183-BBA9-9641714114B2}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassLibrary2", "..\ClassLibrary2\ClassLibrary2.vbproj", "{FDB44B7E-3816-4A7F-ACD5-293A3B5C3583}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{734B819D-73B8-4183-BBA9-9641714114B2}.Debug.ActiveCfg = Debug|.NET
+		{734B819D-73B8-4183-BBA9-9641714114B2}.Debug.Build.0 = Debug|.NET
+		{734B819D-73B8-4183-BBA9-9641714114B2}.Release.ActiveCfg = Release|.NET
+		{734B819D-73B8-4183-BBA9-9641714114B2}.Release.Build.0 = Release|.NET
+		{FDB44B7E-3816-4A7F-ACD5-293A3B5C3583}.Debug.ActiveCfg = Debug|.NET
+		{FDB44B7E-3816-4A7F-ACD5-293A3B5C3583}.Debug.Build.0 = Debug|.NET
+		{FDB44B7E-3816-4A7F-ACD5-293A3B5C3583}.Release.ActiveCfg = Release|.NET
+		{FDB44B7E-3816-4A7F-ACD5-293A3B5C3583}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

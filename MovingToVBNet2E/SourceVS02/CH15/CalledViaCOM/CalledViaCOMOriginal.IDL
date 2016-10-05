@@ -1,0 +1,123 @@
+// Generated .IDL file (by the OLE/COM Object Viewer)
+// 
+// typelib filename: CalledViaCOM.tlb
+
+[
+  uuid(6431F4C9-B2F9-40FB-9420-301B96E2FC8E),
+  version(1.0),
+  helpstring("MovingToVB.NET Example called via COM")
+]
+library CalledViaCOM
+{
+    // TLib :     // TLib : Common Language Runtime Library : {BED7F4EA-1A96-11D2-8F08-00A0C9A6186D}
+    importlib("mscorlib.tlb");
+    // TLib : OLE Automation : {00020430-0000-0000-C000-000000000046}
+    importlib("stdole2.tlb");
+
+    // Forward declare all types defined in this typelib
+    interface _CallFromCOM;
+    interface _CallFromCOMDispatch;
+    interface _CallFromCOMDual;
+
+    [
+      odl,
+      uuid(4754E921-813A-3FC2-BD9C-721237AA5884),
+      version(1.0),
+      dual,
+      oleautomation,
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM._CallFromCOM")    
+
+    ]
+    interface _CallFromCOM : IDispatch {
+        [id(0x60020000)]
+        HRESULT TimesTwo(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+        [id(0x60020001)]
+        HRESULT TimesThree(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+        [id(0x60020002)]
+        HRESULT TimesFour(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+    };
+
+    [
+      uuid(F271C40F-6465-356C-B100-1A4BD830FCAB),
+      version(1.0),
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM.CallFromCOM")
+    ]
+    coclass CallFromCOM {
+        interface _Object;
+        [default] interface _CallFromCOM;
+    };
+
+    [
+      uuid(6AD6A2F9-2113-3AB3-A72E-003E1929DC0F),
+      version(1.0),
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM.CallFromCOMDispatch")
+    ]
+    coclass CallFromCOMDispatch {
+        [default] interface _CallFromCOMDispatch;
+        interface _Object;
+    };
+
+    [
+      uuid(ED9E4230-EB8D-3024-94D5-65B5FDD81540),
+      version(1.0),
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM.CallFromCOMDual")
+    ]
+    coclass CallFromCOMDual {
+        [default] interface _CallFromCOMDual;
+        interface _Object;
+    };
+
+    [
+      odl,
+      uuid(65E1FF5D-13BD-3E0B-82F6-F9E44FCEBD34),
+      hidden,
+      dual,
+      oleautomation,
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM.CallFromCOMDispatch")    
+
+    ]
+    interface _CallFromCOMDispatch : IDispatch {
+    };
+
+    [
+      odl,
+      uuid(B1FD2886-A510-345D-BBAF-CB5011867D03),
+      hidden,
+      dual,
+      nonextensible,
+      oleautomation,
+        custom({0F21F359-AB84-41E8-9A78-36D110E6D2F9}, "CalledViaCOM.CallFromCOMDual")    
+
+    ]
+    interface _CallFromCOMDual : IDispatch {
+        [id(00000000), propget,
+            custom({54FC8F55-38DE-4703-9C4E-250351302B1C}, "1")]
+        HRESULT ToString([out, retval] BSTR* pRetVal);
+        [id(0x60020001)]
+        HRESULT Equals(
+                        [in] VARIANT obj, 
+                        [out, retval] VARIANT_BOOL* pRetVal);
+        [id(0x60020002)]
+        HRESULT GetHashCode([out, retval] long* pRetVal);
+        [id(0x60020003)]
+        HRESULT GetType([out, retval] _Type** pRetVal);
+        [id(0x60020004)]
+        HRESULT TimesTwo(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+        [id(0x60020005)]
+        HRESULT TimesThree(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+        [id(0x60020006)]
+        HRESULT TimesFour(
+                        [in] long i, 
+                        [out, retval] long* pRetVal);
+    };
+};

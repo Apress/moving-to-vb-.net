@@ -1,0 +1,2 @@
+The LinkedList directory contains file LinkList.pdf and sample projects from the first edition of the book that uses a linked list to demonstrate inheritance. For the second edition, a new example replaced the linked list example. The original text is included here for those who are interested.
+The linked list example has not been converted to VS 2003, however I have no reason to expect there to be any problems converting and using it in that environment.

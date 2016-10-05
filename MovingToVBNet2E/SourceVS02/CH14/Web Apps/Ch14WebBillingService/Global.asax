@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.vb" Inherits="CH14WebBillingService.Global" %>

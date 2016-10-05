@@ -1,0 +1,54 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Ch14WebExamples", "Ch14WebExamples.vdproj", "{86E28D62-17ED-42F7-B880-0F97B16C5ACB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CH14WebBilling", "http://localhost/ch14WebBilling/CH14WebBilling.vbproj", "{48FD2CE7-E70F-4066-A7DA-1C31C81496DE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Billing", "..\BillingComponent\Billing.vbproj", "{FEF883E1-6547-43C2-907C-7CE321E059AB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CH14WebBillingService", "http://localhost/ch14WebBillingService/CH14WebBillingService.vbproj", "{632AA3E1-370F-44B2-9209-60BB2D52235D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CH14SimpleWebApp", "http://localhost/ch14SimpleWebApp/CH14SimpleWebApp.vbproj", "{881E3113-3ACF-49D0-A446-611E1FF50E08}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Description = Chapter 14 Web Examples
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{86E28D62-17ED-42F7-B880-0F97B16C5ACB}.Debug.ActiveCfg = Debug
+		{86E28D62-17ED-42F7-B880-0F97B16C5ACB}.Debug.Build.0 = Debug
+		{86E28D62-17ED-42F7-B880-0F97B16C5ACB}.Release.ActiveCfg = Release
+		{86E28D62-17ED-42F7-B880-0F97B16C5ACB}.Release.Build.0 = Release
+		{48FD2CE7-E70F-4066-A7DA-1C31C81496DE}.Debug.ActiveCfg = Debug|.NET
+		{48FD2CE7-E70F-4066-A7DA-1C31C81496DE}.Debug.Build.0 = Debug|.NET
+		{48FD2CE7-E70F-4066-A7DA-1C31C81496DE}.Release.ActiveCfg = Release|.NET
+		{48FD2CE7-E70F-4066-A7DA-1C31C81496DE}.Release.Build.0 = Release|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Debug.ActiveCfg = Debug|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Debug.Build.0 = Debug|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Release.ActiveCfg = Release|.NET
+		{FEF883E1-6547-43C2-907C-7CE321E059AB}.Release.Build.0 = Release|.NET
+		{632AA3E1-370F-44B2-9209-60BB2D52235D}.Debug.ActiveCfg = Debug|.NET
+		{632AA3E1-370F-44B2-9209-60BB2D52235D}.Debug.Build.0 = Debug|.NET
+		{632AA3E1-370F-44B2-9209-60BB2D52235D}.Release.ActiveCfg = Release|.NET
+		{632AA3E1-370F-44B2-9209-60BB2D52235D}.Release.Build.0 = Release|.NET
+		{881E3113-3ACF-49D0-A446-611E1FF50E08}.Debug.ActiveCfg = Debug|.NET
+		{881E3113-3ACF-49D0-A446-611E1FF50E08}.Debug.Build.0 = Debug|.NET
+		{881E3113-3ACF-49D0-A446-611E1FF50E08}.Release.ActiveCfg = Release|.NET
+		{881E3113-3ACF-49D0-A446-611E1FF50E08}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

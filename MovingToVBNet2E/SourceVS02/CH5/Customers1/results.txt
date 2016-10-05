@@ -1,0 +1,16 @@
+Customer is Worst buys
+Customer is Worst buys
+... is net 30
+Press enter to continue:
+Customer is Jim Smith
+Customer is Jim Smith
+... must pay immediately
+Press enter to continue:
+Customer is U.S.A.
+Customer is U.S.A.
+... will pay someday we hope
+Legislative
+Press enter to continue:
+Customer is U.S.A.
+Customer is U.S.A.
+... will pay someday we hope

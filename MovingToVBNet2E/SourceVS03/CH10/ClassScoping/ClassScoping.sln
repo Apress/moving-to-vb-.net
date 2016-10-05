@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassTest", "ClassTest\ClassTest.vbproj", "{8D637785-A857-48AE-8F93-1A83BB4F84E0}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClassTestApp", "ClassTestApp\ClassTestApp.vbproj", "{57F5F685-CED5-4D15-9D66-28A562288D54}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{8D637785-A857-48AE-8F93-1A83BB4F84E0}.Debug.ActiveCfg = Debug|.NET
+		{8D637785-A857-48AE-8F93-1A83BB4F84E0}.Debug.Build.0 = Debug|.NET
+		{8D637785-A857-48AE-8F93-1A83BB4F84E0}.Release.ActiveCfg = Release|.NET
+		{8D637785-A857-48AE-8F93-1A83BB4F84E0}.Release.Build.0 = Release|.NET
+		{57F5F685-CED5-4D15-9D66-28A562288D54}.Debug.ActiveCfg = Debug|.NET
+		{57F5F685-CED5-4D15-9D66-28A562288D54}.Debug.Build.0 = Debug|.NET
+		{57F5F685-CED5-4D15-9D66-28A562288D54}.Release.ActiveCfg = Release|.NET
+		{57F5F685-CED5-4D15-9D66-28A562288D54}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

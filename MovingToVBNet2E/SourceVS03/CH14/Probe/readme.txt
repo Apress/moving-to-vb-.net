@@ -1,0 +1,1 @@
+This sample program requires an Internet connection to work correctly.

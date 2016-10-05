@@ -1,0 +1,5 @@
+Value of Boolean in Integer is: 1
+Value of Boolean assigned from 5 is : True
+And converted back to Boolean: 1
+4 And 8: True
+4 BitAnd 8: 0
